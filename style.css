@@ -1,80 +1,95 @@
-* {
+.body {
     font-family: sans-serif;
 }
 
-.banner {
+/* HERO */
+
+.hero {
     background-color: #1f2937;
-    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
 }
 
-h1 {
-    font-size: 48px;
-    font-weight: bolder;
+.header {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.header-left {
+    display: flex;
     color: #f9faf8;
-    text-align: left;
+    
 }
 
-h4,
-.divert {
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+}
+
+.page {
     font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    border: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+button.page:hover {
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.header-writing {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    text-align: left;
+    gap: 15px
+    ;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title, .pitch {
+    width: 450px;
+}
+
+.pitch {
     color: #e5e7eb;
 }
 
-.logo {
-    font-size: 24px;
+.call {
+    display: flex;
     color: #f9faf8;
-    font-weight: bold;
-    display: inline-block;
-    margin-left: 100px;
-}
-
-.divert {
-    text-align: right;
-    display: inline-flex;
-    border: 0px;
-    background-color: #1f2937;
-    border-radius: 25px;
-}
-
-.divert:hover {
     background-color: #3882f6;
-    transition: 0.7s;
-}
-
-.edge {
-    margin-left: 800px;
+    padding: 10px 30px;
+    width: max-content;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
 }
 
 .sil {
-    height: 250px;
-    width: auto;
-    float:right;
-    margin-right:100px;
-    margin-top: -140px;
-    margin-left: -500px;
-    position: relative; left: -200px;
+    width: 250px;
 }
 
-.text {
-    margin-left: 200px;
-    margin-bottom: -10px;
-    
-
-}
-
-.call {
-    margin-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #3882f6;
-    color: #f9faf8;
-    border: 0px;
-    border-radius: 7px;
-    font-size: large;
-    font-weight: 500;
-}
-
-
-}
+/* HERO */
