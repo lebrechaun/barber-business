@@ -118,6 +118,7 @@ button.page:hover {
     border-radius: 15px;
     border: 3px solid;
     border-color: #3882f6;
+    flex-wrap: wrap;
 }
 
 .photo-header {
@@ -152,10 +153,9 @@ button.page:hover {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding: 100px;
-    margin: 0;
-    border: 0;
+    align-items: center;
+    padding: 50 100px;
+    margin: 20px;
 }
 
 .bx p {
@@ -166,9 +166,70 @@ button.page:hover {
     font-weight: lighter;
     max-width: 800px;
     margin: 40px 200px;
+    text-align: left;
 }
 
 .bx b {
-    margin: 0 200px;
+    margin: 20 200px;
+    margin-bottom: 40px;
     font-size: 20px;
+    text-align: right;
 }
+
+/* SIGN UP */
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    margin: 80px 300px;
+    color: #f9faf8;
+    padding: 20px 40px;
+    border-radius: 20px;
+    flex-basis: 1;
+}
+
+.sign-up .book {
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+.sign-up .text {
+    display: flex;
+    margin: 1px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 30px;
+    row-gap: 5px;
+}
+
+.sign-up br {
+    display: flex;
+}
+
+.sign-up button {
+    display: flex;
+    padding: 8px 16px;
+    font-size: 22px;
+    color: #f9faf8;
+    background-color: transparent;
+    border: #f9faf8 2px solid;
+    border-radius: 15px;
+    margin-left: auto;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
